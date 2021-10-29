@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+a {
+  color: #346751;
+}
+
+h1 {
+  font-size: 4.6875em; /*16 px is general ; 100% = 16px = 1em*/ /* Use rem if already a font size value is input in the body css*/
+  font-family: "Dancing Script", cursive;
+  color: #064420;
+}
+
+h2 {
+  font-family: "Cormorant Infant", serif;
+  font-size: 2.5rem;
+  color: #064420;
+}
+
+h3 {
+  font-family: "Cormorant Infant", serif;
+  color: #064420;
+  font-size: 1.85rem;
+}
+
+.top-container {
+  background-color: #eaffd0;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 155px;
+  line-height: 2;
+}
+
+.bottom-container {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  background-color: #eaffd0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 100px;
+  right: 500px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 250px;
+  left: 500px;
+}
+
+.role {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: normal;
+  color: #064420;
+}
+
+.profile {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill-row {
+  margin: 0 auto 0 auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.pen-tool {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.camera {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted;
+  color: gray;
+  border-top: 10px;
+  border-width: 10px;
+  margin: 90px auto;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-phone {
+  width: 10%;
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+.btn {
+  background: #eaffd0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #064420;
+  font-family: Comfortaa;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.btn:hover {
+  border: solid #4aa96c 1px;
+  background: #4aa96c;
+  color: #eaffd0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  line-height: 2;
+  margin: 15px;
+}
+
+/*
+#f6e6cb
+#e3fdfd
+#346751
+*/
